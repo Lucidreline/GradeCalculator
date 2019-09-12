@@ -1,0 +1,24 @@
+Create a txt file that follows a structure. For example:
+
+***
+Homework
+10% (Worth 10% of my grade)
+10 (every assignment is x/10)
+10
+10
+***
+Quizes
+10%
+10
+9
+7
+
+The 3 astrids tells the program to look for the name of assignment and next the percent they are worth
+
+Each 'Section' will be a class which has a 'Name', 'PercentWorth', 'TotalPosPointsPer', and an array of your scores.
+
+The percents worths will be added to get a totalPercent. This is incase all of the PercentsWorth don't = 100. This could be because some exams havent came yet.
+
+All the grades in a section will be added, and then divided by the 'TotalPosPointsPer' * numOfGrades in order to get a percent for each section
+
+I will take the percent for the section, turn it into a decimal, and multiply it by the percent worth. This will give me overallPercent for each section. I will add all of these and divide it by the totalPercent

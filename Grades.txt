@@ -1,0 +1,23 @@
+How to format each section:
+1. 'Name of the type of assignment'
+2. Percent of your total grade is this? (EX .Homework is worth 15% of your grade)
+3. Total amount of points possible per assignment
+4. Grade recieved (you can keep adding grades in new lines)
+5. Finish it off with 3 astrids
+***
+Homework
+5
+4
+1
+2
+***
+Quizes
+10
+10
+9
+7
+***
+Exam
+25
+100
+95
