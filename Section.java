@@ -3,15 +3,11 @@ import java.util.List;
 
 public class Section {
     
-    public Section(String _name, Double _percentWorth, Double _totalPosPointsPerAssignment){
+    public Section(String _name, Double _percentWorth, Double _totalPosPointsPerAssignment, List<Double> _grades){
         name = _name;
         percentWorth = _percentWorth;
         totalPosPointsPerAssignment = _totalPosPointsPerAssignment;
-    }
-
-    public static void EnterGrade(Double _grade){
-        grades.add(_grade);
-        CalculateSectionPercent();
+        grades = _grades;
     }
 
     public static void CalculateSectionPercent(){
