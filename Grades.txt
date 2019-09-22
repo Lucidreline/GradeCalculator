@@ -6,18 +6,19 @@ How to format each section:
 5. Finish it off with 3 astrids
 ***
 Homework
-5
-4
-1
-2
+10
+10
+10
+10
+10
 ***
 Quizes
-10
+15
 10
 9
 7
 ***
-Exam
-25
+Exam 1
+15
 100
-95
+74

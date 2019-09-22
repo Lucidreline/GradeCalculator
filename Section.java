@@ -8,9 +8,10 @@ public class Section {
         percentWorth = _percentWorth;
         totalPosPointsPerAssignment = _totalPosPointsPerAssignment;
         grades = _grades;
+        CalculateSectionPercent();
     }
 
-    public static void CalculateSectionPercent(){
+    public void CalculateSectionPercent(){
         Double totalPoints = 0.0;
         for (int i = 0; i < grades.size(); i++)
             totalPoints += grades.get(i);
@@ -19,8 +20,8 @@ public class Section {
         sectionPercentage = percentage * 100;
     }
     
-    public static List<Double> grades = new ArrayList<>();
-    public static String name;
-    public static Double percentWorth, sectionPercentage,totalPosPointsPerAssignment ;
+    public List<Double> grades = new ArrayList<>();
+    public String name;
+    public Double percentWorth, sectionPercentage,totalPosPointsPerAssignment ;
 
 }

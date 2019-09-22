@@ -8,9 +8,7 @@ public class app {
     public static void main(String args[]) throws FileNotFoundException {
         List<Section> sections = new ArrayList<>();
         readFileAndLoadList(sections);
-        for (int i = 0; i < sections.size(); i++) {
-            System.out.println(sections.get(i).name);
-        }
+        System.out.println(CalculateOverallPercentage(sections));
     }
 
     public static void readFileAndLoadList(List<Section> _sections) throws FileNotFoundException {
@@ -45,7 +43,6 @@ public class app {
                 }
                 
                 _sections.add(new Section(name, percentWorth, possiblePointsPerAssignment, grades));
-                System.out.println("Element 0 name: " + _sections.get(0).name);
             }
             
         }
